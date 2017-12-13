@@ -1,0 +1,31 @@
+
+#C:\WINDOWS\system32>cd/
+#C:\>cd vms
+
+#C:\vms>mkdir shopping
+
+#C:\vms>cd shopping
+
+#C:\vms\shopping>git init
+Initialized empty Git repository in C:/vms/shopping/.git/
+
+#C:\vms\shopping>vagrant init ubuntu/lempstack
+A `Vagrantfile` has been placed in this directory. You are now
+ready to `vagrant up` your first virtual environment! Please read
+the comments in the Vagrantfile as well as documentation on
+`vagrantup.com` for more information on using Vagrant.
+
+#C:\vms\shopping>git remote add origin https://github.com/philbel/shopping.git
+
+Then we copy a file from our bakedbox,editor and attributes with the command lines below:
+
+#C:\vms\shopping>copy nul .gitignore
+        1 file(s) copied.
+
+#C:\vms\shopping>copy nul .editorconfig
+        1 file(s) copied.
+
+#C:\vms\shopping>copy nul .gitattributes
+        1 file(s) copied.
+#then we bring up vagrant: 
+vagrant up
