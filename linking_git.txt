@@ -19,7 +19,7 @@ the comments in the Vagrantfile as well as documentation on
 
 Then we copy a file from our bakedbox,editor and attributes with the command lines below:
 
-#C:\vms\shopping>copy nul .gitignore
+#C:\vms\shopping>copy nul .gitignore....(this is used to ignore a particular fule u don't want to push/share)
         1 file(s) copied.
 
 #C:\vms\shopping>copy nul .editorconfig
@@ -28,4 +28,10 @@ Then we copy a file from our bakedbox,editor and attributes with the command lin
 #C:\vms\shopping>copy nul .gitattributes
         1 file(s) copied.
 #then we bring up vagrant: 
-vagrant up
+vagrant up;
+then go the ur physical folder and look for and edit the 2nd file with name "gitignore" and back to ur cmd line to add,commit and push with:
+#C:\vms\shopping>git add .
+
+#C:\vms\shopping>git commit -m "shopping class"
+
+#C:\vms\shopping>git push -u origin master
