@@ -14,10 +14,15 @@ A `Vagrantfile` has been placed in this directory. You are now
 ready to `vagrant up` your first virtual environment! Please read
 the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
+<<<<<<< HEAD
 copy the remote link from the created repo from github and paste on the cmd line:
 #C:\vms\shopping>git remote add origin https://github.com/philbel/shopping.git
+=======
 
-Then we copy a file from our bakedbox,editor and attributes with the command lines below:
+#C:\vms\shopping>git remote add origin https://github.com/philbel/shopping.git(this is gotten from your git after u created a repository)
+>>>>>>> 63ae367dec3ea87ffa0cc13965acf001399933fd
+
+Then we copy a file from our bakedbox,editor and make attributes with the command lines below:
 
 #C:\vms\shopping>copy nul .gitignore....(this is used to ignore a particular fule u don't want to push/share)
         1 file(s) copied.
@@ -34,4 +39,8 @@ then go the ur physical folder and look for and edit the 2nd file with name "git
 
 #C:\vms\shopping>git commit -m "shopping class"
 
+<<<<<<< HEAD
 #C:\vms\shopping>git push -u origin master
+=======
+#C:\vms\shopping>git push -u origin master
+>>>>>>> 63ae367dec3ea87ffa0cc13965acf001399933fd
